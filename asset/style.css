@@ -46,6 +46,7 @@ header {
 
 /* Main */
 
+/* hero */
 .hero {
   background-color: rgba(26, 188, 156, 255);
 }
@@ -56,8 +57,10 @@ header {
   text-align: center;
 }
 
-.portfolio {
-  height: 500px;
+/* Porfolio Section */
+
+.portfolio img {
+  border-radius: 10px;
 }
 
 .about {
