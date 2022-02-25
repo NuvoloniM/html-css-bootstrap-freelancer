@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* general */
+
+/* utilities */
+
+/* Header */
+header {
+  height: 50px; /* da eliminare */
+  background-color: rgba(44, 62, 80, 255);
+}
+
+/* Main */
+
+.hero {
+  background-color: rgba(26, 188, 156, 255);
+  height: 300px;
+}
+
+.portfolio {
+  height: 500px;
+}
+
+.about {
+  background-color: rgba(26, 188, 156, 255);
+  height: 200px;
+}
+
+.contact {
+  height: 400px;
+}
+
+/* Footer */
+.foot {
+  height: 100px;
+  background-color: rgba(58, 84, 109, 255);
+}
+
+.copyright {
+  height: 50px;
+  background-color: rgba(44, 62, 80, 255);
+}
