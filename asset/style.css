@@ -47,7 +47,8 @@ header {
 /* Main */
 
 /* hero */
-.hero {
+.hero,
+.about {
   background-color: rgba(26, 188, 156, 255);
 }
 
@@ -61,11 +62,6 @@ header {
 
 .portfolio img {
   border-radius: 10px;
-}
-
-.about {
-  background-color: rgba(26, 188, 156, 255);
-  height: 200px;
 }
 
 .contact {
