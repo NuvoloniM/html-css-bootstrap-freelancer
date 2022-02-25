@@ -7,10 +7,17 @@
 /* general */
 
 /* utilities */
-
-.row > div {
+.test {
   border: 1px solid red;
-  /* height: 50px; */
+}
+
+.white {
+  color: rgba(255, 255, 255, 255);
+}
+
+.line {
+  border: 1px solid;
+  height: 1px;
 }
 
 /* Header */
@@ -26,11 +33,27 @@ header {
   padding: 10px 0;
 }
 
+.nav {
+  flex-wrap: nowrap;
+  padding-top: 10px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 255);
+  font-size: 1em;
+}
+
 /* Main */
 
 .hero {
   background-color: rgba(26, 188, 156, 255);
-  height: 300px;
+}
+
+.hero-title {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 255);
+  text-align: center;
 }
 
 .portfolio {
@@ -44,17 +67,6 @@ header {
 
 .contact {
   height: 400px;
-}
-
-.nav {
-  flex-wrap: nowrap;
-  padding-top: 10px;
-}
-
-.nav-link {
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 255);
-  font-size: 1em;
 }
 
 /* Footer */
