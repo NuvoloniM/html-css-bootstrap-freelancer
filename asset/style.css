@@ -5,7 +5,9 @@
 }
 
 /* general */
-
+ul {
+  list-style-type: none;
+}
 /* utilities */
 .test {
   border: 1px solid red;
@@ -13,6 +15,10 @@
 
 .white {
   color: rgba(255, 255, 255, 255);
+}
+
+.green {
+  color: rgba(26, 188, 156, 255);
 }
 
 .line {
@@ -76,11 +82,9 @@ header {
 
 /* Footer */
 .foot {
-  height: 100px;
   background-color: rgba(58, 84, 109, 255);
 }
 
 .copyright {
-  height: 50px;
   background-color: rgba(44, 62, 80, 255);
 }
