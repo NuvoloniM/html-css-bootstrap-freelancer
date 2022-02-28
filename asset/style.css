@@ -13,6 +13,10 @@ ul {
   border: 1px solid red;
 }
 
+.bg_dark {
+  background-color: rgba(44, 62, 80, 255);
+}
+
 .white {
   color: rgba(255, 255, 255, 255);
 }
@@ -70,11 +74,6 @@ header {
 }
 
 /* Porfolio Section */
-
-.portfolio img {
-  border-radius: 10px;
-  /* use boot class rounded */
-}
 
 .border {
   border-bottom: 1px solid gray;
